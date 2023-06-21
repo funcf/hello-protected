@@ -1,6 +1,7 @@
 # hello-protected
 
 A simple example app that runs on Cloud Foundry serving a protected JSON file using the Staticfile Buildpack.
+In addition this example shows how to set CORS and HSTS headers to get this data from any app forcing HTTPS.
 
 **Usage:** `cf push protected`
 

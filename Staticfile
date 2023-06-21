@@ -1,5 +1,4 @@
 root: protected
-force_https: true
-host_dot_files: false
-http_strict_transport_security_preload: true
 location_include: includes/*.conf
+directory: visible
+force_https: true
