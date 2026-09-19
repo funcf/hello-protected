@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Push
 
 # Controls when the workflow will run
 on:
@@ -27,4 +27,4 @@ jobs:
         org: MauriceExternal
         space: demo
     - name: run cf command
-      run: cf push
+      run: cf push hello-protected -b staticfile_buildpack_offline
